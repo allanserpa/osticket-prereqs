@@ -64,3 +64,28 @@ This tutorial outlines the prerequisites and installation of the open-source hel
  <br> - On the right, click “Browse *:80”
 </p>
 <br />
+
+<p>
+<img src="https://i.imgur.com/vH0hQE8.png" height="80%" width="80%" alt="Disk Sanitization Steps"/><br>
+ <b>STEP 13:</b> Note that some extensions are not enabled
+ <br> - Go back to IIS, sites -> Default -> osTicket
+ <br> - Double-click PHP Manager
+ <br> - Click “Enable or disable an extension”
+ <br> - Enable: php_imap.dll
+ <br> - Enable: php_intl.dll
+ <br> - Enable: php_opcache.dll
+ <br> - Refresh the osTicket site in your browse, observe the changes<br>
+ <b>STEP 14:<b> Rename: ost-config.php
+ <br> - From: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php
+ <br> - To: C:\inetpub\wwwroot\osTicket\include\ost-config.php
+</p>
+<br />
+  
+<p>
+<img src="https://i.imgur.com/aiTKG9t.png" height="80%" width="80%" alt="Disk Sanitization Steps"/><br>
+<img src="https://i.imgur.com/usCx68X.png" height="80%" width="80%" alt="Disk Sanitization Steps"/><br>
+ <b>STEP 15:</b> Assign Permissions: ost-config.php
+ <br> - Disable inheritance -> Remove All
+ <br> - New Permissions -> Everyone -> All
+</p>
+<br />
