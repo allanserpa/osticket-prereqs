@@ -20,9 +20,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <p>
 <img src="https://i.imgur.com/k6ndpdY.png" height="80%" width="80%" alt="Disk Sanitization Steps"/><br>
  <b>STEP 1:</b> Open up Control Panel and Install / Enable IIS in Windows WITH CGI
- World Wide Web Services -><br> Application Development Features -> [X] CGI <br><br>
- <b>STEP 2:</b> Download and Install <a href="https://drive.google.com/file/d/1RHsNd4eWIOwaNpj3JW4vzzmzNUH86wY_/view?usp=share_link">PHP Manager</a> for IIS <br><br>
- <b>STEP 3:</b> Download and Install the <a href="https://drive.google.com/file/d/1tIK9GZBKj1JyUP87eewxgdNqn9pZmVmY/view?usp=share_link">Rewrite Module</a> <br><br>
+ World Wide Web Services -><br> Application Development Features -> [X] CGI <br>
+ <b>STEP 2:</b> Download and Install <a href="https://drive.google.com/file/d/1RHsNd4eWIOwaNpj3JW4vzzmzNUH86wY_/view?usp=share_link">PHP Manager</a> for IIS <br>
+ <b>STEP 3:</b> Download and Install the <a href="https://drive.google.com/file/d/1tIK9GZBKj1JyUP87eewxgdNqn9pZmVmY/view?usp=share_link">Rewrite Module</a> <br>
 </p>
 <br />
 
@@ -34,8 +34,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <p>
 <img src="https://i.imgur.com/7tIYNSy.png" height="80%" width="80%" alt="Disk Sanitization Steps"/><br>
- <b>STEP 5:</b> Download <a href="https://drive.google.com/file/d/1snNMtLdCOpMtkCyD4mvl9yOOmvVIp9fP/view?usp=share_link">PHP 7.3.8</a> and unzip the contents into       C:\PHP<br><br>
- <b>STEP 6:</b> Download and Install <a href="https://drive.google.com/file/d/1s1OsGF3-ioO0_9LYizPRiVuIkb3lFJgH/view?usp=share_link">VC_redist.x86.exe</a><br><br>
+ <b>STEP 5:</b> Download <a href="https://drive.google.com/file/d/1snNMtLdCOpMtkCyD4mvl9yOOmvVIp9fP/view?usp=share_link">PHP 7.3.8</a> and unzip the contents into       C:\PHP<br>
+ <b>STEP 6:</b> Download and Install <a href="https://drive.google.com/file/d/1s1OsGF3-ioO0_9LYizPRiVuIkb3lFJgH/view?usp=share_link">VC_redist.x86.exe</a><br>
  <b>STEP 7:</b> Download and Install <a href="https://drive.google.com/file/d/1_OWh9p7VQLcrB0q_V7qT8yHl0xo5gv7z/view?usp=share_link">MySQL 5.5.62</a>
  <br> - Typical Setup -> <br> - Launch Configuration Wizard (after install) -> <br> - Standard Configuration ->
 </p>
@@ -43,7 +43,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <p>
 <img src="https://i.imgur.com/kKibXmF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/><br>
- <b>STEP 8:</b> Open IIS as an Admin and Register PHP from within IIS<br><br>
+ <b>STEP 8:</b> Open IIS as an Admin and Register PHP from within IIS<br>
  <b>STEP 9:</b> Reload IIS (Open IIS, Stop and Start the server)
 </p>
 <br />
@@ -75,7 +75,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
  <br> - Enable: php_intl.dll
  <br> - Enable: php_opcache.dll
  <br> - Refresh the osTicket site in your browse, observe the changes<br>
- <b>STEP 14:<b> Rename: ost-config.php
+ <b>STEP 14:</b> Rename: ost-config.php
  <br> - From: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php
  <br> - To: C:\inetpub\wwwroot\osTicket\include\ost-config.php
 </p>
@@ -87,6 +87,14 @@ This tutorial outlines the prerequisites and installation of the open-source hel
  <b>STEP 15:</b> Assign Permissions: ost-config.php
  <br> - Disable inheritance -> Remove All
  <br> - New Permissions -> Everyone -> All<br>
- <b>STEP 16:</b> From the Installation Files, download and install <a href="https://docs.google.com/document/d/1WovrX2DaS9xkfaSr4LXyB4YnnWpXIgPCMMbbfgHmGVw/edit"> HeidiSQL</a>
+ <b>STEP 16:</b> From the Installation Files, download and install <a href="https://docs.google.com/document/d/1WovrX2DaS9xkfaSr4LXyB4YnnWpXIgPCMMbbfgHmGVw/edit">       HeidiSQL</a>
+ <br> - Open Heidi SQL
+ <br> - Create a new session
+ <br> - Create a database<br>
+ <b>STEP 16: Click continue on osTicket Browser and start the setup<br>
+ <b>STEP 17: Click Install Now!<br><br>
+ <b>Congratulations, it should be installed with no errors!</b><br><br>
+ <b>Clean up</b>
+ <br> - Delete: C:\inetpub\wwwroot\osTicket\setup
+ <br> - Set Permissions to “Read” only: C:\inetpub\wwwroot\osTicket\include\os
 </p>
-<br />
