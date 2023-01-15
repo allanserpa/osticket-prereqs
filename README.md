@@ -53,6 +53,14 @@ This tutorial outlines the prerequisites and installation of the open-source hel
  <b>STEP 10:</b> Install osTicket v1.15.8
  <br> - Download osTicket from the Installation Files Folder
  <br> - Extract and copy “upload” folder to c:\inetpub\wwwroot
- <br> - Within c:\inetpub\wwwroot, Rename “upload” to “osTicket”
+ <br> - Within c:\inetpub\wwwroot, Rename “upload” to “osTicket”<br>
+ <b>STEP 11:</b> Reload IIS (Open IIS, Stop and Start the server)
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/hqi3K4c.png" height="80%" width="80%" alt="Disk Sanitization Steps"/><br>
+ <b>STEP 12:</b> Go to sites -> Default -> osTicket
+ <br> - On the right, click “Browse *:80”
 </p>
 <br />
