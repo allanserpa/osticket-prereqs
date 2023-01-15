@@ -86,6 +86,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.com/usCx68X.png" height="80%" width="80%" alt="Disk Sanitization Steps"/><br>
  <b>STEP 15:</b> Assign Permissions: ost-config.php
  <br> - Disable inheritance -> Remove All
- <br> - New Permissions -> Everyone -> All
+ <br> - New Permissions -> Everyone -> All<br>
+ <b>STEP 16:</b> From the Installation Files, download and install <a href="https://docs.google.com/document/d/1WovrX2DaS9xkfaSr4LXyB4YnnWpXIgPCMMbbfgHmGVw/edit"> HeidiSQL</a>
 </p>
 <br />
