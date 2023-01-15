@@ -34,7 +34,25 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <p>
 <img src="https://i.imgur.com/7tIYNSy.png" height="80%" width="80%" alt="Disk Sanitization Steps"/><br>
-  <b>STEP 5:</b> Download <a href="https://drive.google.com/file/d/1snNMtLdCOpMtkCyD4mvl9yOOmvVIp9fP/view?usp=share_link">PHP 7.3.8</a> and unzip the contents into       C:\PHP<br><br>
-  <b>STEP 6:</b> Download and Install <a href="https://drive.google.com/file/d/1s1OsGF3-ioO0_9LYizPRiVuIkb3lFJgH/view?usp=share_link">VC_redist.x86.exe</a>
+ <b>STEP 5:</b> Download <a href="https://drive.google.com/file/d/1snNMtLdCOpMtkCyD4mvl9yOOmvVIp9fP/view?usp=share_link">PHP 7.3.8</a> and unzip the contents into       C:\PHP<br><br>
+ <b>STEP 6:</b> Download and Install <a href="https://drive.google.com/file/d/1s1OsGF3-ioO0_9LYizPRiVuIkb3lFJgH/view?usp=share_link">VC_redist.x86.exe</a><br><br>
+ <b>STEP 7:</b> Download and Install <a href="https://drive.google.com/file/d/1_OWh9p7VQLcrB0q_V7qT8yHl0xo5gv7z/view?usp=share_link">MySQL 5.5.62</a>
+ <br> - Typical Setup -> <br> - Launch Configuration Wizard (after install) -> <br> - Standard Configuration ->
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/kKibXmF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/><br>
+ <b>STEP 8:</b> Open IIS as an Admin and Register PHP from within IIS<br><br>
+ <b>STEP 9:</b> Reload IIS (Open IIS, Stop and Start the server)
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/iBeb7bW.png" height="80%" width="80%" alt="Disk Sanitization Steps"/><br>
+ <b>STEP 10:</b> Install osTicket v1.15.8
+ <br> - Download osTicket from the Installation Files Folder
+ <br> - Extract and copy “upload” folder to c:\inetpub\wwwroot
+ <br> - Within c:\inetpub\wwwroot, Rename “upload” to “osTicket”
 </p>
 <br />
