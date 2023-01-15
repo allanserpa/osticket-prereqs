@@ -24,7 +24,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <b>STEP 1:</b> Open up Control Panel and Install / Enable IIS in Windows WITH CGI
 World Wide Web Services -> Application Development Features -> [X] CGI <br><br>
 <b>STEP 2:</b> Download and Install <a href="https://drive.google.com/file/d/1RHsNd4eWIOwaNpj3JW4vzzmzNUH86wY_/view?usp=share_link">PHP Manager</a> for IIS <br><br>
-<b>STEP 3:</b> Download and Install the Rewrite Module <br><br>
+<b>STEP 3:</b> Download and Install the <a href="https://drive.google.com/file/d/1tIK9GZBKj1JyUP87eewxgdNqn9pZmVmY/view?usp=share_link">Rewrite Module</a> <br><br>
 </p>
 <br />
 
